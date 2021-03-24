@@ -23,11 +23,11 @@ body{
     height: 500px;
     background-size: cover;
     color: #fff;
+    text-align: center;
   }
 
   #header h1{
     padding-top: 180px;
-    text-align: center;
     font-family: "Roboto";
     font-weight: bold;
     font-weight: normal;
