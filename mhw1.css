@@ -1,52 +1,44 @@
 @font-face {
-    font-family: "Roboto";
-    src: url("font/Roboto-Black.ttf");
-      src: url("font/Roboto-BlackItalic.ttf");
-      src: url("font/Roboto-Bold.ttf");
-      src: url("font/Roboto-BoldItalic.ttf");
-      src: url("font/Roboto-Italic.ttf");
-      src: url("font/Roboto-Light.ttf");
-      src: url("font/Roboto-LightItalic.ttf");
-      src: url("font/Roboto-Medium.ttf");
-      src: url("font/Roboto-MediumItalic.ttf");
-      src: url("font/Roboto-Regular.ttf");
-      src: url("font/Roboto-Thin.ttf");
-      src: url("font/Roboto-ThinItalic.ttf");
-    }
-
-body{
-    margin: 0;
+  font-family: "Roboto";
+  src: url("font/Roboto-Regular.ttf");
 }
 
-#header{
-    background-image: url("header.jpg");
-    height: 500px;
-    background-size: cover;
-    color: #fff;
-    text-align: center;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
-  #header h1{
-    padding-top: 180px;
-    font-family: "Roboto";
-    font-weight: bold;
-    font-weight: normal;
-  }
-  
-  #navbar{
-      padding: 8px;
-      list-style-type: none;
-      text-align: right;
-  }
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
 
-  #navbar li{
-      font-size: 22px;
-      padding: 10px;
-      display:inline;
-  }
+#header {
+  background-image: url("header.jpg");
+  height: 500px;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
 
-  #navbar li a{
-      color: #fff;
-      text-decoration: none;
-      
-  }
+h1 {
+  font-size: 100px;
+  padding-top: 112px;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: bold;
+  font-weight: normal;
+}
+
+#navbar {
+  padding: 8px;
+  list-style-type: none;
+  text-align: right;
+}
+
+#navbar li {
+  font-size: 22px;
+  padding: 10px;
+  display: inline;
+}
+
+#navbar li a {
+  color: #fff;
+  text-decoration: none;
+}
