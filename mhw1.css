@@ -19,8 +19,13 @@ body {
   text-align: center;
 }
 
+#overlay{
+  background-color: rgba(0 , 0 , 0, .3);
+  height: 70vh;
+}
+
 h1 {
-  font-size: 7em;
+  font-size: 9.2vw;
   padding-top: 21.5vh;
   font-family: 'Fjalla One', sans-serif;
   font-weight: normal;
@@ -49,6 +54,7 @@ h1 {
 #profileimage{
   text-align: center;
   margin-block-start: 0;
+  margin-bottom: 4em;
 }
 
 #profileimage img{
@@ -57,4 +63,45 @@ h1 {
   height: 13em;
   margin-top: -6.5em;
   border: 4px solid #fff;
+}
+
+/*MAIN_SECTION*/
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.article {
+  width: 50%;
+  flex-shrink: 1;
+  flex-grow: 0;
+  margin-bottom: 8em;
+  height: auto;
+}
+
+.article img {
+  width: 100%;
+  height: 300px;
+}
+
+.editorial p {
+  text-align: justify;
+}
+
+#footer {
+  background-color:000;
+  text-align: center;
+  color: #fff;
+  padding: 15px 0;
+  margin: 0;
+}
+
+/*MEDIA_QUERIES*/
+@media only screen and (max-width:1000px){
+  .article {width: 90%;}
+  #navbar {text-align: center;}
+  #navbar li {font-size: 42px;}
+  #header, #overlay {height: 50vh;}
 }
