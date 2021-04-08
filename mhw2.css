@@ -110,41 +110,39 @@ h1 {
 
 .article {
   background-color: rgba(0, 0, 0, -0.5);
-    width: 32.5%;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    margin-bottom: 4%;
-    flex-direction: column;
-    border: solid;
-    border-color: #000;
+  width: 32.5%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin-bottom: 4%;
+  flex-direction: column;
+  border: solid;
+  border-color: #000;
 }
 
 .article h2 {
   color: #e6e6e6;
   margin-block-end: 4em;
-
 }
 
 .article h3 {
   color: #8080ff;
-
 }
 
 .imgcontainer {
   position: relative;
-width: 162%;
-height: 300px;
-overflow: hidden;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
 }
 
 .imgcontainer img {
   position: absolute;
-  max-width: 59%;
+  max-width: 100%;
   width: 100%;
   height: auto;
   top: 50%;
-  left: 29%;
+  left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 6px;
 }
