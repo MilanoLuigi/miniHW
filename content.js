@@ -2,7 +2,7 @@ const contenuti = [
   {
     titolo: 'Pistola Arcade',
     immagine: 'src/hello-i-m-nik-BIqTcb-52yg-unsplash.jpg',
-    descrizione: 'Pistola arcade utilizzata nelle vecchie console a partire dagli anni '80'
+    descrizione: 'Pistola arcade utilizzata nelle vecchie console a partire dagli anni 90'
   },
   {
     titolo: 'Joypad Xbox',
