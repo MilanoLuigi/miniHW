@@ -158,6 +158,16 @@ h1 {
   margin: 0;
 }
 
+.button {
+  width: 50px;
+  margin-top: -14%;
+}
+
+.button img{
+  width: inherit;
+  height: inherit;
+}
+
 /*MEDIA_QUERIES*/
 @media screen and (max-width: 900px) {
   .article {

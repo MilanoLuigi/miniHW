@@ -1,5 +1,4 @@
-const contenuti = [
-  {
+const contenuti = [{
     titolo: 'Pistola Arcade',
     immagine: 'src/hello-i-m-nik-BIqTcb-52yg-unsplash.jpg',
     descrizione: 'Pistola arcade utilizzata nelle vecchie console a partire dagli anni 90'
@@ -45,3 +44,5 @@ const contenuti = [
     descrizione: 'Pc master race tutta la vita, abbasso le console'
   }
 ]
+
+const button = 'src/bottone-preferiti-rosso.jpg';
