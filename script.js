@@ -15,9 +15,19 @@ function list(contenuti) {
     const btnimg = document.createElement("img");
     btnimg.src = button;
 
-    const btn = document.createElement("a");
+    const btn = document.createElement("button");
     btn.className = "button";
-    btn.href = "#";
+    let c = 0;
+    btn.onclick = function() {
+      if (c == 0) {
+        btnimg.src = buttonBlu;
+        c = 1;
+      }
+      else if (c == 1){
+        btnimg.src = button;
+        c = 0;
+      }
+    }
     btn.appendChild(btnimg);
 
     item.appendChild(btn);
@@ -44,11 +54,3 @@ function list(contenuti) {
 }
 
 grid.appendChild(list(contenuti));
-
-function preferbottom(event){
-const new_img = document.createElement('img');
-new_img = "src/bottone-preferiti-blu.jpg";
-
-const button = document.querySelector(button);
-button.appendChild(new_img);
-}

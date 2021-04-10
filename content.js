@@ -46,3 +46,4 @@ const contenuti = [{
 ]
 
 const button = 'src/bottone-preferiti-rosso.jpg';
+const buttonBlu = 'src/bottone-preferiti-blu.jpg';
