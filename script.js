@@ -10,7 +10,6 @@ function list(contenuti) {
     // Impostiamo il contenuto:
     const h2 = document.createElement("h2");
     h2.textContent = contenuti[i].titolo;
-    item.appendChild(h2);
 
     const btnimg = document.createElement("img");
     btnimg.src = button;
@@ -32,7 +31,6 @@ function list(contenuti) {
     }
     btn.appendChild(btnimg);
 
-    item.appendChild(btn);
 
     const img = document.createElement("img");
     img.src = contenuti[i].immagine;
@@ -40,6 +38,9 @@ function list(contenuti) {
     const imgcontainer = document.createElement("div");
     imgcontainer.className = "imgcontainer";
     imgcontainer.appendChild(img);
+    imgcontainer.appendChild(h2);
+    imgcontainer.appendChild(btn);
+
 
     item.appendChild(imgcontainer);
 

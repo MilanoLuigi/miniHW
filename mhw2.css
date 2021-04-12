@@ -121,8 +121,9 @@ h1 {
 .article h2 {
   color: #e6e6e6;
   position: absolute;
-  margin-top: 73%;
-  padding-left: 6%;
+  margin-top: 6%;
+  padding-left: 1.5%;
+  z-index: 100;
 }
 
 .article h3 {
@@ -159,7 +160,7 @@ h1 {
 
 .button {
   width: 50px;
-  margin-left: 81.1%;
+  margin-left: 71.1%;
   position: absolute;
 }
 
