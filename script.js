@@ -22,10 +22,12 @@ function list(contenuti) {
       if (c == 0) {
         btnimg.src = buttonBlu;
         c = 1;
+
       }
       else if (c == 1){
         btnimg.src = button;
         c = 0;
+
       }
     }
     btn.appendChild(btnimg);
